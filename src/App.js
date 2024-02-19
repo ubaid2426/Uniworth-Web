@@ -17,26 +17,28 @@ import Shiping from './components/Shiping/Shiping';
 import BrowseMore from './components/BrowseMore/BrowseMore';
 // import Main1 from './components/Main1/Main1';
 import Maincard from './components/Maincard/Maincard';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
-     <Navbar/>
-  <Maincaurosel/>
-    <Main/>
+     {/* <Navbar/> */}
+  {/* <Maincaurosel/> */}
+    {/* <Main/> */}
     {/* <CardDisplay/> */}
     {/* <NewArrival/> */}
-    <Responsive/>
+    {/* <Responsive/> */}
     {/* <Card1/> */}
-    <ActiveWear/>
-      <BrowseMore/>
+    {/* <ActiveWear/> */}
+      {/* <BrowseMore/> */}
     {/* <Main/> */}
     {/* <Card/> */}
     {/* <Accessories/> */}
     {/* <Winter/> */}
-   <Shiping/>
+   {/* <Shiping/> */}
    {/* <Shirt/> */}
    {/* <Main1/> */}
-   <Maincard/>
+   {/* <Maincard/> */}
+      <Footer/>
     </>
   );
 }
