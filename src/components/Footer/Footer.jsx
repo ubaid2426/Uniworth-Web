@@ -1,11 +1,17 @@
 import React from 'react'
-import Logo from '../../Images/SVG/10001.svg'
+import Logo from '../../Images/SVG/10003.png'
 import './Footer.css'
 import { FaTwitter } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { IoTimeOutline } from "react-icons/io5";
+import { ImLocation } from "react-icons/im";
+import { FaCreativeCommonsSa } from "react-icons/fa";
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap')
 const Footer = () => {
   return (
     <div className='section'>
@@ -44,7 +50,7 @@ const Footer = () => {
                     <li><a href="#">Size Guide</a></li>
                     <li><a href="#">Return & Exchange Policy</a></li>
                     <li><a href="#">Careers</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Blog</a></li> 
                 </ul>
             </div>
         </div>
@@ -67,21 +73,21 @@ const Footer = () => {
             <div className="sec2-4-1"><span>Store Information</span></div>
             <div className="sec2-4-2">
             <ul>
-                    <li><a href="#"><FaPhoneAlt />+92 307 1234567</a></li>
-                    <li><a href="#">+92 307 1234567</a></li>
-                    <li><a href="#">7017889@UOL.edu.pk</a></li>
-                    <li><a href="#">Mon-Sat: (10:00AM To 06:00PM)</a></li>
-                    <li><a href="#">Made to Measure</a></li>
-                    <li><a href="#"><button>Find Our Store</button></a></li>
+                    <li><a href="#"><span id='Info-icons'><FaPhoneAlt /></span> <span id='info-head'>+92 307 1234567</span></a></li>
+                    <li><a href="#"><span id='Info-icons'><FaWhatsapp /></span><span id='info-head'>+92 307 1234567</span></a></li>
+                    <li><a href="#"><span id='Info-icons'><MdEmail /></span><span id='info-head'>7017889@UOL.edu.pk</span></a></li>
+                    <li><a href="#"><span id='Info-icons'><IoTimeOutline /></span><span id='info-head'>Mon-Sat: (10:00AM To 06:00PM)</span></a></li>
+                    
+                    <li><a href="#"><span id='Info-icons'><ImLocation /></span><button id='info-head'>Find our Stores</button></a></li>
                 </ul>
             </div>
         </div>
       </div>
       <div className="section-main-3">
-        <div className="sec3-1"><span>UNIWORTH DRESS CO. All Rights Reserved.</span></div>
+        <div className="sec3-1"><span><FaCreativeCommonsSa /></span><span>UNIWORTH DRESS CO. All Rights Reserved.</span></div>
         <div className="sec3-2">
             <div className="sec3-2-1"><span>100% Safe Checkout</span></div>
-            <div className="sec3-2-2">Logo Payments</div>
+            <div className="sec3-2-2"><img src={Logo} alt="" /></div>
         </div>
       </div>
     </div>

@@ -25,7 +25,7 @@ import { MdShoppingCartCheckout } from "react-icons/md";
 import { MdFavoriteBorder } from "react-icons/md";
 function Responsive() {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 1000,
     slidesToShow: 4,
@@ -61,6 +61,11 @@ function Responsive() {
     ]
   };
   return (
+    <div className="responsiive">
+   
+    <div className="res">
+          <div className="new"><span>New Arrivals</span><hr id="line"/></div>
+    </div>
     <div className="slider-container" id="main">
       <Slider {...settings} id='main1'>
        
@@ -178,6 +183,7 @@ function Responsive() {
           <div className="body_card"></div>
         </div>
       </Slider>
+    </div>
     </div>
   );
 }

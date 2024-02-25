@@ -1,21 +1,28 @@
 #main{
-    margin: 20px 2px;
+    /* margin: 20px 2px; */
     padding: 2px 2px;
+    overflow: hidden;
+    /* background: #fff; */
 /* gap: 50px; */
 }
+.responsiive{
+  background: #ff0000;
+  background: #fff;
+}
 #card{
-    height: 70vh;
+    height: 50vh;
     /* width:25%; */
     object-fit: cover;
     display: flex;
     gap: 50px;
-    gap: 50px;
+    /* gap: 50px; */
     justify-content: center;
     align-items: center;
 }
 body{
     padding: 0px;
     margin:0px;
+    /* background: #fff; */
 }
 .slider-container {
     width: 100%;

@@ -2,7 +2,7 @@
   "name": "e-com",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://ubaid2426.github.io/Uniworth-Web",
+  "Homepage" : "https://ubaid2426.github.io/Uniworth-Web",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

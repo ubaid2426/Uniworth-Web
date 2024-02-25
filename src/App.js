@@ -18,18 +18,25 @@ import BrowseMore from './components/BrowseMore/BrowseMore';
 // import Main1 from './components/Main1/Main1';
 import Maincard from './components/Maincard/Maincard';
 import Footer from './components/Footer/Footer';
+import Svg from './components/SVG/Svg';
+import Svg1 from './components/Svg1/Svg1.jsx'
 function App() {
+  const color1='#ccc';
+  const color2='#fff';
+  const color3='#000';
   return (
     <>
-     {/* <Navbar/> */}
-  {/* <Maincaurosel/> */}
-    {/* <Main/> */}
-    {/* <CardDisplay/> */}
-    {/* <NewArrival/> */}
-    {/* <Responsive/> */}
-    {/* <Card1/> */}
-    {/* <ActiveWear/> */}
-      {/* <BrowseMore/> */}
+     <Navbar/>
+  <Maincaurosel/>
+  {/* <Svg main={color1} /> */}
+    <Main/>
+    {/* <Svg1 main={color2}/> */}
+    <Svg1 main={color1} />
+    <Responsive/>
+  <Svg1 main={color1}/>
+    <ActiveWear/>
+    <Svg main={color2} id='select'/>
+      <BrowseMore/>
     {/* <Main/> */}
     {/* <Card/> */}
     {/* <Accessories/> */}
@@ -38,7 +45,7 @@ function App() {
    {/* <Shirt/> */}
    {/* <Main1/> */}
    {/* <Maincard/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }

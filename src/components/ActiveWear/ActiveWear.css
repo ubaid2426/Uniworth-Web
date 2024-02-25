@@ -10,7 +10,7 @@
     background-image: linear-gradient(0deg, #4d4855 0%, #000000 74%);
     /* background-image: url('../../Images/download.jpeg'); */
     z-index: 3;
-    background: #fff;
+    background: #692323;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
@@ -21,6 +21,7 @@
     background-repeat: no-repeat;
     top:0;
     right:0;
+    color: yellow;
 }
 .main{
 width:100vw;
@@ -37,14 +38,18 @@ position: relative;
     flex-wrap:wrap;
     background-image: url('../../Images/New_Arrivals_front/Activewear.webp');
     background-attachment: fixed;
+    /* position:fixed; */
     background-repeat: no-repeat;
     background-size: cover;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
-.section2 background-image{
+.section2 img{
     height: 100%;
     width:100%;
     object-fit: cover;
+    background-size: contain;
+    background-attachment: fixed;
+    /* position: fixed; */
 }
 /* .main{ */
     /* height: 400vh; */
@@ -169,3 +174,24 @@ position: relative;
                      }
                 
                     }
+
+
+                    /* body{ */
+    /* background: #ff0000; */
+/* } */
+svg{
+    position: fixed;
+    z-index: 565989898;
+    /* background: #ff0000; */
+    /* color:#ff0000; */
+    overflow: hidden;
+    }
+    .bottom{
+    transform:rotate(180deg);
+    position:relative;
+    background: #ff0000;
+    /* top:-20px; */
+    /* color:#ff0000; */
+    z-index: 78787875;
+    }
+    
