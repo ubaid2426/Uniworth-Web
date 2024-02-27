@@ -4,11 +4,12 @@
 }
 
 .section {
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 20% 70% 10%;
   background: #F9F9F9;
-  height: 600px;
+  height: 720px;
   font-family: "Poppins", sans-serif;
 }
 .section .section-main-1 {
@@ -165,12 +166,13 @@
 }
 .section .section-main-2 .sec2-2 .sec2-2-2 ul li, .section .section-main-2 .sec2-2 .sec2-3-2 ul li, .section .section-main-2 .sec2-2 .sec2-4-2 ul li, .section .section-main-2 .sec2-3 .sec2-2-2 ul li, .section .section-main-2 .sec2-3 .sec2-3-2 ul li, .section .section-main-2 .sec2-3 .sec2-4-2 ul li, .section .section-main-2 .sec2-4 .sec2-2-2 ul li, .section .section-main-2 .sec2-4 .sec2-3-2 ul li, .section .section-main-2 .sec2-4 .sec2-4-2 ul li {
   list-style-type: none;
-  margin: 10px 0px;
 }
 .section .section-main-2 .sec2-2 .sec2-2-2 ul li a, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a {
   text-decoration: none;
   color: #000;
   font-weight: 500;
+  position: relative;
+  overflow: hidden;
 }
 .section .section-main-2 .sec2-2 .sec2-2-2 ul li a button, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a button, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a button, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a button, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a button, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a button, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a button, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a button, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a button {
   width: 120px;
@@ -188,10 +190,18 @@
 .section .section-main-2 .sec2-2 .sec2-2-2 ul li a #info-head, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a #info-head, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a #info-head, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a #info-head, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a #info-head, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a #info-head, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a #info-head, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a #info-head, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a #info-head {
   gap: 10px;
 }
-.section .section-main-2 .sec2-2 .sec2-2-2 ul li:hover, .section .section-main-2 .sec2-2 .sec2-3-2 ul li:hover, .section .section-main-2 .sec2-2 .sec2-4-2 ul li:hover, .section .section-main-2 .sec2-3 .sec2-2-2 ul li:hover, .section .section-main-2 .sec2-3 .sec2-3-2 ul li:hover, .section .section-main-2 .sec2-3 .sec2-4-2 ul li:hover, .section .section-main-2 .sec2-4 .sec2-2-2 ul li:hover, .section .section-main-2 .sec2-4 .sec2-3-2 ul li:hover, .section .section-main-2 .sec2-4 .sec2-4-2 ul li:hover {
-  text-decoration: underline;
-  color: #ff0000;
+.section .section-main-2 .sec2-2 .sec2-2-2 ul li a::after, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a::after, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a::after, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a::after, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a::after, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a::after, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a::after, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a::after, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #ff0000;
+  transform: scaleX(0);
+  transform-origin: left;
   transition: transform 1s ease;
+}
+.section .section-main-2 .sec2-2 .sec2-2-2 ul li a:hover::after, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a:hover::after, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a:hover::after, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a:hover::after, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a:hover::after, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a:hover::after, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a:hover::after, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a:hover::after, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a:hover::after {
+  transform: scaleX(0.5);
+  overflow: hidden;
 }
 .section .section-main-2 .sec2-2 .sec2-4-2 ul li, .section .section-main-2 .sec2-3 .sec2-4-2 ul li, .section .section-main-2 .sec2-4 .sec2-4-2 ul li {
   margin: 20px 0px;
@@ -234,4 +244,171 @@
      object-fit: contain;
   height: 100%;
   width: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .section {
+    height: 1500px;
+    background: #ff0000;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12% 82% 6%;
+  }
+  .section .section-main-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    width: 100vw;
+  }
+  .section .section-main-1 .sec1-1, .section .section-main-1 .sec1-2 {
+    width: 100vw;
+    place-items: center;
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section .section-main-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 28% 23% 24% 25%;
+  }
+  .section .section-main-2 .sec2-1 {
+    width: 100%;
+    display: grid;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-1 {
+    width: 180px;
+    height: 120px;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-3 {
+    width: 100%;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-3 ul {
+    width: 50%;
+    margin: 20px;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-3 ul li {
+    width: 70%;
+  }
+  .section .section-main-2 .sec2-2, .section .section-main-2 .sec2-3, .section .section-main-2 .sec2-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 0px;
+    margin-left: 40px;
+    border-top: 2px solid #ccc;
+    overflow: auto;
+    font-weight: 700;
+  }
+  .section .section-main-2 .sec2-2 .sec2-4-2 ul li, .section .section-main-2 .sec2-3 .sec2-4-2 ul li, .section .section-main-2 .sec2-4 .sec2-4-2 ul li {
+    margin: 10px 0px;
+  }
+  .section .section-main-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    place-items: center;
+  }
+  .section .section-main-3 .sec3-1, .section .section-main-3 .sec3-2 {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 599px) {
+  .section {
+    height: 1500px;
+    background: #ff0000;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12% 82% 6%;
+  }
+  .section .section-main-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    width: 100vw;
+  }
+  .section .section-main-1 .sec1-1, .section .section-main-1 .sec1-2 {
+    width: 100vw;
+    place-items: center;
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section .section-main-1 .sec1-1 .sec1-1-2 span, .section .section-main-1 .sec1-2 .sec1-1-2 span {
+    font-size: 12px;
+  }
+  .section .section-main-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 28% 23% 24% 25%;
+  }
+  .section .section-main-2 .sec2-1 {
+    width: 100%;
+    display: grid;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-1 {
+    width: 180px;
+    height: 120px;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-2 #uni-para {
+    font-size: 12px;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-3 {
+    width: 100%;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-3 ul {
+    width: 50%;
+    margin: 20px;
+  }
+  .section .section-main-2 .sec2-1 .sec2-1-3 ul li {
+    width: 70%;
+  }
+  .section .section-main-2 .sec2-2, .section .section-main-2 .sec2-3, .section .section-main-2 .sec2-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 0px;
+    margin-left: 40px;
+    border-top: 2px solid #ccc;
+    overflow: auto;
+    font-weight: 700;
+  }
+  .section .section-main-2 .sec2-2 .sec2-4-2 ul li, .section .section-main-2 .sec2-3 .sec2-4-2 ul li, .section .section-main-2 .sec2-4 .sec2-4-2 ul li {
+    margin: 10px 0px;
+  }
+  .section .section-main-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    place-items: center;
+  }
+  .section .section-main-3 .sec3-1, .section .section-main-3 .sec3-2 {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
 }/*# sourceMappingURL=Footer.css.map */

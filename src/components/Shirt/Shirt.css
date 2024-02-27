@@ -1,12 +1,18 @@
 .Shirt-main{
     display:flex;
     width:100vw;
-    height:auto;
+    /* height:auto; */
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     /* margin-top:150px; */
-    margin-bottom:150px;
+    /* margin-bottom:150px; */
     z-index: 7;
+    background: #ccc;
+}
+.extra2, .extra3{
+    height:50px;
+    background: #ccc;
 }
 .Shirt-main-1{
     display:grid;
@@ -16,6 +22,7 @@
     /* background: #eee; */
     /* gap: 30px; */
     z-index: 7;
+    background: #ccc;
     /* place-items: center; */
     
 }

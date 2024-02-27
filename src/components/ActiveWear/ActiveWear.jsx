@@ -6,16 +6,14 @@ const ActiveWear = (props) => {
   const color1='#000';
   const color2='#ccc';
   return (
+    <>
+   
+    <div className="extra8">
+      <Svg1 main={color2} clr={true}/>
+    </div>
     <div className='main'>
-      <svg/>
-      <div className="section1">
-      {/* <div class="bottom" data-negative="false">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-          <path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z" fill='#000'></path>
-          </svg>  */}
-     {/* </div> */}
-         {/* <Svg1 main={color2}/> */}
-      </div>
+      {/* <svg/> */}
+      <div className="section1"></div>
       <div className="section2">
       {/* <Svg1 main={color1}/> */}
         <div className="sec-sub">
@@ -28,6 +26,7 @@ const ActiveWear = (props) => {
       </div>
       <div className="section3"></div>
     </div>
+    </>
   )
 }
 

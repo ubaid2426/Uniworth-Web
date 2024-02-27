@@ -3,7 +3,7 @@
 /* } */
 svg{
 position: fixed;
-z-index: 565;
+/* z-index: -48981; */
 /* background: #ff0000; */
 /* color:#ff0000; */
 overflow: hidden;
@@ -16,7 +16,7 @@ position:relative;
 background: #ccc;
 /* top:-20px; */
 /* color:#ff0000; */
-z-index: 75;
+z-index: 4;
 line-height: 0px;
 direction: ltr;
 }

@@ -30,3 +30,7 @@ font-weight: 400;
     display:grid;
     place-items: center;
 }
+.extra5, .extra6{
+    height: 50px;
+    background: #fff;
+}

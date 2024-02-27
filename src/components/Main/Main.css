@@ -1,11 +1,15 @@
+.extra, .extra1{
+  height:50px;
+  background: #ccc;
+}
 .con{
     display:flex;
     width:100vw;
     height:auto;
     justify-content: center;
     align-items: center;
-    margin-top:50px;
-    margin-bottom:50px;
+    /* margin-top:50px; */
+    /* margin-bottom:50px; */
     background: #ccc;
     z-index: 7;
 }

@@ -16,6 +16,7 @@ import Winter12 from '../../Images/Winter-back/10012.jpg'
 const Winter = () => {
   return (
     <div>
+      <div className="extra10"></div>
        <div className='Winter-main'>
         <div className="Winter-main-1">
       <Card background={Winter1} background1={Winter7}/>
@@ -26,6 +27,7 @@ const Winter = () => {
       <Card background={Winter6} background1={Winter11}/>
     </div>
     </div>
+    <div className="extra10"></div>
     </div>
   )
 }

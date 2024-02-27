@@ -13,50 +13,57 @@ const Navbar = () => {
   <li><a href="">Winter</a>
   <ul class="submenu">
       <li><a href="">SeatShirt</a></li>
-      <li><a href="">SWeater</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
+      <li><a href="">Sweater</a></li>
+      <li><a href="">Polo</a></li>
+      <li><a href="">Basic tees</a></li>
+      <li><a href="">Casual Shirt</a></li>
+      <li><a href="">Men Short</a></li>
     </ul>	
   </li>
   <li>
     <a href="">Shirt</a>
     <ul class="submenu">
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
+      <li><a href="">formal Shirt</a></li>
+      <li><a href="">Plain shirt</a></li>
+      <li><a href="">Check Shirt</a></li>
+      <li><a href="">Stripe Shirt</a></li>
+      <li><a href="">Double Cuff</a></li>
+      <li><a href="">The White club</a></li>
     </ul>
   </li>
   <li><a href="">Trousers</a>
   <ul class="submenu">
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
+      <li><a href="">Formal Trouser</a></li>
+      <li><a href="">Cotton Trouser</a></li>
+      <li><a href="">Mens Chinos</a></li>
+      <li><a href="">Straight Fit</a></li>
+      <li><a href="">Smart Fit</a></li>
+      <li><a href="">Travels</a></li>
     </ul>
   </li>
   <li><a href="">Ethnic</a>
   <ul class="submenu">
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
+      <li><a href="">Suit</a></li>
+      <li><a href="">Lapel Pin</a></li>
+      <li><a href="">Coat</a></li>
+      <li><a href="">Safari Suit</a></li>
     </ul>	
   </li>
   <li><a href="">Active</a>
   <ul class="submenu">
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href="">Submenu item</a></li>
-      <li><a href=""></a></li>
+      <li><a href="">Kameez Shalwar</a></li>
+      <li><a href="">Kurta Pajama</a></li>
+      <li><a href="">Ethnic Combo </a></li>
+      <li><a href="">SS Kurta</a></li>
+      <li><a href="">Saleem Sheikh</a></li>
+      <li><a href="">SS Waitcoat</a></li>
+      <li><a href="">Fancy Kammeez</a></li>
     </ul>	
   </li>
   <li><a href="">LoungWear</a>
   <ul class="submenu">
       <li><a href="">Casual Pajama</a></li>
-      <li><a href="">T-shirt & PAjama</a></li>
+      <li><a href="">Tshirt&PAjama</a></li>
     </ul>	
   </li>
   <li><a href="">Accessories</a>

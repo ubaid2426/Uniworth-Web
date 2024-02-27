@@ -3,7 +3,7 @@
 /* } */
 #svg1{
     position: relative;
-    z-index: 598985;
+    z-index: 3;
     /* background: #ff0000; */
     /* color:#ff0000; */
     /* overflow: hidden; */
@@ -14,6 +14,8 @@
     background: #fff;
     /* top:20px; */
     /* color:#ccc; */
-    z-index: 79895;
+    /* z-index: 79895; */
     }
-    
+    /* .bottom-2{
+        background: red;
+    } */

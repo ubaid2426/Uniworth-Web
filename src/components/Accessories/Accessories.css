@@ -5,7 +5,8 @@
     justify-content: center;
     align-items: center;
     /* margin-top:150px; */
-    margin-bottom:150px;
+    /* margin-bottom:150px; */
+    background: #ccc;
     z-index: 7;
 }
 .Access-main-1{
@@ -42,4 +43,8 @@
         grid-template-columns: repeat(3, 32%);
         
     }
+}
+.extra11{
+    height: 50px;
+    background: #ccc;
 }

@@ -16,6 +16,7 @@ import Access12 from '../../Images/Accessories-back/10012.webp'
 const Accessories = () => {
   return (
     <div>
+      <div className="extra11"></div>
        <div className='Access-main'>
         <div className="Access-main-1">
       <Card background={Access1} background1={Access7}/>
@@ -26,6 +27,7 @@ const Accessories = () => {
       <Card background={Access6} background1={Access12}/>
     </div>
     </div>
+    <div className="extra11"></div>
     </div>
   )
 }

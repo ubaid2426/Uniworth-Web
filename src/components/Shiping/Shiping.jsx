@@ -3,6 +3,8 @@ import './Shiping.css'
 import { FaShippingFast } from "react-icons/fa";
 const Shiping = () => {
   return (
+    <>
+   <div className="extra5"></div>
     <div className='ship-main'>
       <div className="Ship">
         <div className="ship1">
@@ -16,6 +18,8 @@ const Shiping = () => {
             <span>Premium Quality</span></div>
       </div>
     </div>
+    <div className="extra6"></div>
+    </>
   )
 }
 

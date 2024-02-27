@@ -15,6 +15,9 @@ import Shirt11 from '../../Images/Shirt-back/10011.webp'
 import Shirt12 from '../../Images/Shirt-back/10013.webp'
 const Shirt = () => {
   return (
+    <>
+    
+      <div className="extra2"></div>
     <div className='Shirt-main'>
         <div className="Shirt-main-1">
       <Card background={Shirt1} background1={Shirt7}/>
@@ -25,6 +28,8 @@ const Shirt = () => {
       <Card background={Shirt6} background1={Shirt12}/>
     </div>
     </div>
+    <div className="extra3"></div>
+    </>
   )
 }
 

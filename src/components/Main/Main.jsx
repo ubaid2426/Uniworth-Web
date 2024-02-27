@@ -11,6 +11,7 @@ import background6 from '../../Images/10006.jpg'
 const Main = () => {
   return (
     <div>
+      <div className="extra"></div>
       <div className="con">
         <div className="con1">
         {/* <main className='joker'> */}
@@ -25,6 +26,7 @@ const Main = () => {
 {/* </main> */}
         </div>
       </div>
+      <div className="extra1"></div>
     </div>
   )
 }
