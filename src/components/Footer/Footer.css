@@ -151,7 +151,7 @@
   align-items: start;
   margin-top: 50px;
   overflow: auto;
-  font-weight: 700;
+  font-weight: 500;
   font-family: var(--font-family);
 }
 .section .section-main-2 .sec2-2 .sec2-2-1, .section .section-main-2 .sec2-2 .sec2-3-1, .section .section-main-2 .sec2-2 .sec2-4-1, .section .section-main-2 .sec2-3 .sec2-2-1, .section .section-main-2 .sec2-3 .sec2-3-1, .section .section-main-2 .sec2-3 .sec2-4-1, .section .section-main-2 .sec2-4 .sec2-2-1, .section .section-main-2 .sec2-4 .sec2-3-1, .section .section-main-2 .sec2-4 .sec2-4-1 {
@@ -170,7 +170,7 @@
 .section .section-main-2 .sec2-2 .sec2-2-2 ul li a, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a {
   text-decoration: none;
   color: #000;
-  font-weight: 500;
+  font-weight: 350;
   position: relative;
   overflow: hidden;
 }
@@ -183,11 +183,11 @@
   border: 1px solid #ccc;
   font-family: var(--font-family);
 }
-.section .section-main-2 .sec2-2 .sec2-2-2 ul li a #Info-icons, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a #Info-icons, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a #Info-icons, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a #Info-icons, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a #Info-icons, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a #Info-icons, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a #Info-icons, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a #Info-icons, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a #Info-icons {
+.section .section-main-2 .sec2-2 .sec2-2-2 ul li a #Info-icons-1, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a #Info-icons-1, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a #Info-icons-1, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a #Info-icons-1, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a #Info-icons-1, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a #Info-icons-1, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a #Info-icons-1, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a #Info-icons-1, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a #Info-icons-1 {
   font-size: 0.85rem;
   margin: 0px 10px;
 }
-.section .section-main-2 .sec2-2 .sec2-2-2 ul li a #info-head, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a #info-head, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a #info-head, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a #info-head, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a #info-head, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a #info-head, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a #info-head, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a #info-head, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a #info-head {
+.section .section-main-2 .sec2-2 .sec2-2-2 ul li a #info-head-1, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a #info-head-1, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a #info-head-1, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a #info-head-1, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a #info-head-1, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a #info-head-1, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a #info-head-1, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a #info-head-1, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a #info-head-1 {
   gap: 10px;
 }
 .section .section-main-2 .sec2-2 .sec2-2-2 ul li a::after, .section .section-main-2 .sec2-2 .sec2-3-2 ul li a::after, .section .section-main-2 .sec2-2 .sec2-4-2 ul li a::after, .section .section-main-2 .sec2-3 .sec2-2-2 ul li a::after, .section .section-main-2 .sec2-3 .sec2-3-2 ul li a::after, .section .section-main-2 .sec2-3 .sec2-4-2 ul li a::after, .section .section-main-2 .sec2-4 .sec2-2-2 ul li a::after, .section .section-main-2 .sec2-4 .sec2-3-2 ul li a::after, .section .section-main-2 .sec2-4 .sec2-4-2 ul li a::after {

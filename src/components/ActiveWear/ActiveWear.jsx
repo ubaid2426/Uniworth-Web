@@ -1,19 +1,20 @@
 import React from 'react'
 import './ActiveWear.css';
 import Svg1 from '../Svg1/Svg1';
-import Svg from '../SVG/Svg';
+// import Svg from '../SVG/Svg';
 const ActiveWear = (props) => {
   const color1='#000';
   const color2='#ccc';
   return (
     <>
-   
     <div className="extra8">
       <Svg1 main={color2} clr={true}/>
     </div>
     <div className='main'>
       {/* <svg/> */}
-      <div className="section1"></div>
+      <div className="section1">
+      {/* <Svg1 main={color2} clr={false}/> */}
+      </div>
       <div className="section2">
       {/* <Svg1 main={color1}/> */}
         <div className="sec-sub">

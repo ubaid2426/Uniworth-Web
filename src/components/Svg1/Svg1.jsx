@@ -4,7 +4,11 @@ const Svg1 = (props) => {
   if ('bottom-1'==true){
     <style>
 
-      background='#ccc'
+      background='transparent';
+      background-color: rgba(255, 255, 255, 0.5);
+      position='relative';
+      {/* transform:'rotate(180deg)'; */}
+      {/* top='90px' */}
     </style>
   }
   return (

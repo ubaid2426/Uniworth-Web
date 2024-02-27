@@ -73,12 +73,12 @@ const Footer = () => {
             <div className="sec2-4-1"><span>Store Information</span></div>
             <div className="sec2-4-2">
             <ul>
-                    <li><a href="#"><span id='Info-icons'><FaPhoneAlt /></span> <span id='info-head'>+92 307 1234567</span></a></li>
-                    <li><a href="#"><span id='Info-icons'><FaWhatsapp /></span><span id='info-head'>+92 307 1234567</span></a></li>
-                    <li><a href="#"><span id='Info-icons'><MdEmail /></span><span id='info-head'>7017889@UOL.edu.pk</span></a></li>
-                    <li><a href="#"><span id='Info-icons'><IoTimeOutline /></span><span id='info-head'>Mon-Sat: (10:00AM To 06:00PM)</span></a></li>
+                    <li><a href="#"><span id='Info-icons-1'><FaPhoneAlt /></span> <span id='info-head-1'>+92 307 1234567</span></a></li>
+                    <li><a href="#"><span id='Info-icons-1'><FaWhatsapp /></span><span id='info-head-1'>+92 307 1234567</span></a></li>
+                    <li><a href="#"><span id='Info-icons-1'><MdEmail /></span><span id='info-head-1'>7017889@UOL.edu.pk</span></a></li>
+                    <li><a href="#"><span id='Info-icons-1'><IoTimeOutline /></span><span id='info-head-1'>Mon-Sat: (10:00AM To 06:00PM)</span></a></li>
                     
-                    <li><a href="#"><span id='Info-icons'><ImLocation /></span><button id='info-head'>Find our Stores</button></a></li>
+                    <li><a href="#"><span id='Info-icons-1'><ImLocation /></span><button id='info-head-1'>Find our Stores</button></a></li>
                 </ul>
             </div>
         </div>

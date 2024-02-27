@@ -34,7 +34,7 @@ background: transparent;
 }
 .section2{
     width:100%;
-    height: 400px;
+    height: 500px;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -186,8 +186,11 @@ background: transparent;
     /* background: #ff0000; */
 /* } */
     .extra8{
-        height:100px;
+        height:10px;
         /* z-index: 89; */
-        background: #ccc;
-        background-color: #ccc;
+        /* background: #ccc; */
+        /* background-color: #ccc; */
+        margin-top: 100px;
+        background: transparent;
+        /* background-color: rgba(255, 255, 255, 0.5); */
     }
