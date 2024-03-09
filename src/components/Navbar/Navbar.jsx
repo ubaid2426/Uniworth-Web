@@ -3,9 +3,21 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { GrFormClose } from "react-icons/gr";
 import './Navbar.css';
 import { useState } from 'react';
+// import Login from '../Login/Login';
 // import logo from '.'
-const Navbar = () => {
+const Navbar = (props) => {
    const[toggleMenu, setToggleMenu] = useState(false);
+  //  const Navbar = () => {
+
+    const [showLogin, setShowLogin] = useState(false);
+  
+    const handleLoginClick = () => {
+      setShowLogin(true);
+    };
+  
+    const handleLoginClose = () => {
+      setShowLogin(false);
+    };
   
   return(
   <nav className='app__navbar'>
@@ -18,7 +30,7 @@ const Navbar = () => {
       <li><a href="">Basic tees</a></li>
       <li><a href="">Casual Shirt</a></li>
       <li><a href="">Men Short</a></li>
-    </ul>	
+    </ul>
   </li>
   <li>
     <a href="">Shirt</a>
@@ -96,8 +108,9 @@ const Navbar = () => {
   </li>
 </ul>
   < div className='app__navbar-login'>
-  <a href='#login' className='p__opensans'> Log In</a>
+  <a href='#login' className='p__opensans' onClick={handleLoginClick}> Log In</a>
   </div>
+  {/* {showLogin && <Login onClose={handleLoginClose} />} */}
   <div className='app__navbar-smallscreen'>
  < GiHamburgerMenu color='#000' margin-left='50px' fontSize={27} onClick={() => setToggleMenu(true)} />
 {toggleMenu && (

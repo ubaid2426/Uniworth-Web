@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './Login.css';
+import 'boxicons';
 
 const Login = () => {
     useEffect(() => {
@@ -39,9 +40,11 @@ const Login = () => {
                     <div className="input-box animation" style={{ '--i': 2, '--j': 2 }}>
                         <input type="password" required />
                         <label htmlFor="">Password</label>
-                        <i className='bx bx-lock-alt bx-flip-horizontal bx-tada'></i>
+                        <i id='password' className='bx bx-lock-alt bx-flip-horizontal bx-tada'></i>
+                        {/* <i class='bx bxs-lock-alt bx-tada' ></i> */}
+                        {/* <i class='bx bxs-lock-alt bx-tada bx-rotate-90' ></i> */}
                     </div>
-                    <button className="btn animation" style={{ '--i': 3, '--j': 1 }}>Login</button>
+                    <button className="btn-login animation" style={{ '--i': 3, '--j': 1 }}>Login</button>
                     <div className="logreg-link animation" style={{ '--i': 4, '--j': 0 }}>
                         <p>Don't Have an account ?<a href="#" className="register-link">Sign Up</a></p>
                     </div>
@@ -70,7 +73,7 @@ const Login = () => {
                         <label htmlFor="">Password</label>
                         <i className='bx bx-lock-alt bx-flip-horizontal bx-tada'></i>
                     </div>
-                    <button className="btn animation" style={{ '--i': 4, '--j': 1 }}>Sign Up</button>
+                    <button className="btn-login animation" style={{ '--i': 4, '--j': 1 }}>Sign Up</button>
                     <div className="register-link animation" style={{ '--i': 5, '--j': 0 }}>
                         <p>Already Have an account ?<a href="#" className="login-link">Login</a></p>
                     </div>
